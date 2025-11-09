@@ -1,16 +1,34 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Electronics store</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <h1>Welcome to My Website</h1>
+     <header class="header">
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.header-nav.partial.html"
+      ></nav>
+      <section data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.header-hero.partial.html"
+      >
+      </section>
     </header>
-    <main>
-      <h2></h2>
+    <main class="main">
+      <h1>W</h1>
     </main>
+
+    <footer class="footer"></footer>
   </body>
 </html>
