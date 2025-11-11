@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+:root {
+  --text-color: #272727;
+  --accent-color-primary: #1c4c97;
+  --accent-color-secondary: #ff7b15;
+  --background-color: white;
+  scroll-behavior: smooth;
+  font-family: "Bacasime Antique", serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
