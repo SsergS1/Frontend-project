@@ -1,7 +1,6 @@
 .header-hero {
   background-image: url("../img/header-herobg.png");
   background-size: cover;
-  background-position: center;
   min-height: 772px;
   padding: 90px 0 30px;
   display: flex;
@@ -15,7 +14,7 @@
     .header-hero__title {
       font-family: var(--title-font);
       font-weight: bold;
-      font-size: clamp(2.5rem, 5vw + 1rem, 3.75rem);
+      font-size: 60px;
       line-height: 1.1;
       letter-spacing: -1px;
       text-align: left;
@@ -33,6 +32,7 @@
       text-align: left;
       flex-wrap: wrap;
       color: #4d4d4d;
+      margin-bottom: 42px;
 
       .header-hero__discount {
         font-weight: bold;
@@ -49,7 +49,7 @@
 
     .header-hero__button {
       display: inline-block;
-      background-color: #1e5ba8;
+      background-color: var(--accent-color-primary);
       color: white;
       padding: 12px 30px;
       border-radius: 5px;
@@ -75,6 +75,8 @@
 
       .header-hero__video-label {
         display: flex;
+        white-space: nowrap; 
+        text-overflow: ellipsis;
       }
     }
   }
