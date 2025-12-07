@@ -14,7 +14,7 @@
   --background-color: white;
   --text-font: "Nunito", sans-serif;
   --title-font: "Bebas Neue", sans-serif;
-  --description-color: #6A6A6A;
+  --description-color: #cbcbcb;
   scroll-behavior: smooth;
   background-color: var(--background-color);
   color: var(--text-color);
