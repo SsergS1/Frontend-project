@@ -12,15 +12,16 @@
     padding: 0 24px;
 
     .header-hero__title {
-      font-family: var(--title-font);
-      font-weight: bold;
-      font-size: 60px;
-      line-height: 1.1;
-      letter-spacing: -1px;
-      text-align: left;
-      max-width: min(90%, 280px);
-      margin: 0 0 20px 0;
-      text-transform: uppercase;
+    font-family: var(--title-font);
+    color: var(--text-color-secondary);
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-align: left;
+    max-width: 420px;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
     }
 
     .header-hero__description {
@@ -36,7 +37,7 @@
 
       .header-hero__discount {
         font-weight: bold;
-        color: var(--accent-color-secondary);
+        color: var(--accent-color-primary);
       }
     }
   }
@@ -49,7 +50,7 @@
 
     .header-hero__button {
       display: inline-block;
-      background-color: var(--accent-color-primary);
+      background-color: var(--accent-color-secondary);
       color: white;
       padding: 12px 30px;
       border-radius: 5px;
@@ -71,7 +72,7 @@
       cursor: pointer;
       padding: 0;
       font-size: 14px;
-      color: #272727;
+      color: var(--text-color-secondary);
 
       .header-hero__video-label {
         display: flex;

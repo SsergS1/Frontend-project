@@ -8,16 +8,21 @@
 }
 
 :root {
-  --text-color: #272727;
-  --accent-color-primary: #1c4c97;
-  --accent-color-secondary: #ff7b15;
+  --text-color-primary: #fff;
+  --text-color-secondary: #272727;
+  --accent-color-primary: #ff7b15;
+  --accent-color-secondary: #1c4c97;
   --background-color: white;
+  --header-footer-bg-color: #272727;
+
   --text-font: "Nunito", sans-serif;
   --title-font: "Bebas Neue", sans-serif;
-  --description-color: #cbcbcb;
+  --description-color: #6a6a6a;
+
+
+
   scroll-behavior: smooth;
   background-color: var(--background-color);
-  color: var(--text-color);
 }
 
 img {
